@@ -52,8 +52,13 @@ array_img = [
 "http://pic.prcm.jp/gazo/Kg/ajx0M6.jpeg"
 ];
 
+color_arr = ["#2ecc71", "#3498db", "#f1c40f"];
+
 function insertHTML(size, i) {
-	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	var random_color = Math.ceil( Math.random() * 3 ) - 1;
+	
+	var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	//var e = '<div class="box size' + size +  size + '" style="background-color:#ccc;width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	$( '#container' ).html(  e + $( '#container' ).html() );
 	
 	setTimeout( 'timer()', 10000 );
