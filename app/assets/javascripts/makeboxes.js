@@ -56,9 +56,8 @@ color_arr = ["#2ecc71", "#3498db", "#f1c40f"];
 
 function insertHTML(size, i) {
 	var random_color = Math.ceil( Math.random() * 3 ) - 1;
-	
-	var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
-	//var e = '<div class="box size' + size +  size + '" style="background-color:#ccc;width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	//var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	$( '#container' ).html(  e + $( '#container' ).html() );
 	
 	setTimeout( 'timer()', 10000 );
@@ -97,7 +96,7 @@ $(function()
 		}
 	}
 
-	$('#container').nested( {minWidth: 100, gutter: 5, resizeToFit: false, speed:10} );
+	$('#container').nested( {minWidth: 80, gutter: 2, resizeToFit: false, speed:10} );
 	//$("#content").nested({minWidth: 100,gutter: 2,resizeToFit: false})
 
 	setTimeout( 'timer()', 10000 );
