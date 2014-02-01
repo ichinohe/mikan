@@ -6,8 +6,30 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.0.0-p353
 
 * System dependencies
+
+[Homebrew]
+0.9.5
+
+[RubyGem]
+2.2.1
+
+[Rake]
+1.5
+
+[Rails]
+4.0.2
+
+[SQLite]
+3.7.13（これだけ横着してプリインストールのまま、あとRailsからアクセスするツール一式のインストールは必須）
+
+[bundler]
+1.5.1
+
+[Foundation]
+5.0.2
 
 * Configuration
 
@@ -20,8 +42,6 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
