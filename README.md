@@ -1,4 +1,4 @@
-## README
+# README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -6,7 +6,7 @@ application up and running.
 Things you may want to cover:
 
 
-#### System dependencies
+## System dependencies
 * Ruby version
 2.0.0-p353
 * Homebrew
@@ -24,16 +24,26 @@ Things you may want to cover:
 * Foundation
 5.0.2
 
-#### Configuration
+## Configuration
 
-#### Database creation
+## Database creation
 
-#### Database initialization
+## Database initialization
 
-#### How to run the test suite
+## How to install this app
+### install foundation-rails
 
-#### Services (job queues, cache servers, search engines, etc.)
+	 gem search --remote 'foundation-rails'
+	 gem install foundation-rails
+	 gem list foundation
+	 bundle
+	 rails g foundation:install
+	 rails server
 
-#### Deployment instructions
+## How to run the test suite
+
+## Services (job queues, cache servers, search engines, etc.)
+
+## Deployment instructions
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
