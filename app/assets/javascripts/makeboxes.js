@@ -92,7 +92,7 @@ $(function()
 		}
 	}
 
-	$('#container').nested( {minWidth: 100, gutter: 2, resizeToFit: false, speed:10} );
+	$('#container').nested( {minWidth: 100, gutter: 5, resizeToFit: false, speed:10} );
 	//$("#content").nested({minWidth: 100,gutter: 2,resizeToFit: false})
 
 	setTimeout( 'timer()', 10000 );
