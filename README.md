@@ -1,41 +1,39 @@
-== README
+## README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
+
+#### System dependencies
 * Ruby version
 2.0.0-p353
+* Homebrew
+0.9.5
+* RubyGem
+2.2.1
+* Rake
+1.5
+* Rails
+4.0.2
+* SQLite
+3.7.13（これだけ横着してプリインストールのまま、あとRailsからアクセスするツール一式のインストールは必須）
+* bundler
+1.5.1
+* Foundation
+5.0.2
 
-* System dependencies
-	* Homebrew
-	0.9.5
-	* RubyGem
-	2.2.1
-	* Rake
-	1.5
-	* Rails
-	4.0.2
-	* SQLite
-	3.7.13（これだけ横着してプリインストールのまま、あとRailsからアクセスするツール一式のインストールは必須）
-	* bundler
-	1.5.1
-	* Foundation
-	5.0.2
+#### Configuration
 
-* Configuration
+#### Database creation
 
-* Database creation
+#### Database initialization
 
-* Database initialization
+#### How to run the test suite
 
-* How to run the test suite
+#### Services (job queues, cache servers, search engines, etc.)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-
+#### Deployment instructions
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
