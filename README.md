@@ -23,6 +23,7 @@ Things you may want to cover:
 1.5.1
 * Foundation
 5.0.2
+* [nested.js](http://suprb.com/apps/nested/)
 
 ## Configuration
 
