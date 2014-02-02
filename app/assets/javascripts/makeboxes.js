@@ -67,38 +67,43 @@ function insertHTML(size, i) {
 
 $(function()
 {
+	// bubble map definition
+	var large_num = 3;
+	var middle_num = 20;
+	var small_num = 20;
+	var total_num = large_num + middle_num + small_num;
+
 	var i = 0;
-	var largh_num = 0;
-	var middle_num = 0;
-	var small_num = 0;
-	
-	while ( i < 35 )
+	var current_large_num = 0;
+	var current_middle_num = 0;
+	var current_small_num = 0;
+	while ( i < total_num )
 	{
 		var random_width_height = Math.ceil( Math.random() * 3 );
 		if (random_width_height == 1) {
-			if (small_num < 15) {
+			if (current_small_num < small_num) {
 				insertHTML(random_width_height, i);
-				small_num += 1;
+				current_small_num += 1;
 				i++;
 			}
 		}
 		else if (random_width_height == 2) {
-			if (middle_num < 15) {
+			if (current_middle_num < middle_num) {
 				insertHTML(random_width_height, i);
-				middle_num += 1;
+				current_middle_num += 1;
 				i++;
 			}
 		}
 		else if (random_width_height == 3) {
-			if (largh_num < 5) {
-				insertHTML(random_width_height, i);
-				largh_num += 1;
+			if (current_large_num < large_num) {
+				insertHTML(random_width_height / 3 * 4, i);
+				current_large_num += 1;
 				i++;
 			}
 		}
 	}
 
-	$('#container').nested( {minWidth: 80, gutter: 2, resizeToFit: false, speed:10} );
+	$('#container').nested( {minWidth: 80, gutter: 10, resizeToFit: false, speed:10} );
 	//$("#content").nested({minWidth: 100,gutter: 2,resizeToFit: false})
 
 	setTimeout( 'timer()', 10000 );
