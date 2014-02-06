@@ -49,6 +49,20 @@ array_img = [
 "http://livedoor.blogimg.jp/garmaquve-gama/imgs/d/5/d52fe596.jpg", 		// とある飛空士への恋歌
 "http://www.at-x.com/images/program/483458cbc3aeef64674110be31141ddd.jpg", 	// そにアニ
 "http://www.mediafactory.co.jp/comic-alive/d-frag/special/wallpaper/df_wallpaper04_1024-768.jpg",		// ディーふらぐ！
+"http://blog-imgs-55-origin.fc2.com/k/o/d/kodoanime01/araizu_title.jpg",	// 攻殻機動隊入門 あらいず
+"http://jisin.jp/image%3Fmode%3Dshow_image%26cb_image_id%3D81807", 	// 地下すぎアイドルあかえちゃん
+"http://maiani.info/wp-content/uploads/2013/12/2ec2dc6a7d54a5976b88d182bcf464a82.jpg", 	// 弱虫ペダル
+"http://www.famitsu.com/images/000/017/870/4ffe517f25be5.jpg", 		// ちび☆デビ！
+"http://ecx.images-amazon.com/images/I/61-rylf4t5L._SL500_AA300_.jpg", 		// うーさーのその日暮らし 覚醒編
+"http://livedoor.blogimg.jp/anico_bin/imgs/2/0/20afabe3.jpg",		// ハマトラ
+"http://articleimage.nicoblomaga.jp/image/28/2013/0/6/06327e97f6657d9a64681af36f653a802a1997d01383148977.jpg", 	// 東京レイヴンズ
+"http://www.famitsu.com/images/000/030/298/5142b61b3e4e1.jpg",		// イナズマイレブンGO ギャラクシー
+"http://www.gpara.com/files/contents/c_s1364918815_75.jpg",	// ガイストクラッシャー
+"http://blog-imgs-26.fc2.com/a/t/o/atoniwota/HunterXHunter_DVDLabel00.jpg",	// HUNTER×HUNTER 2011
+"http://blog-imgs-57.fc2.com/2/c/h/2chnokakera/kv_20131115121824.jpg", 	// 妖怪ウォッチ
+"http://blog-imgs-46.fc2.com/a/n/i/animaga000/20140109013745550s.jpg",	// 中二病でも恋がしたい！戀
+"http://inarikonkon.jp/ogp-img.jpg",	// いなり、こんこん、恋いろは。
+
 
 // "http://img.guideme.jp/i/EMQaYnX5RQcKW/tf5RRLRCabREkIp6uW%2BfAMG/ySrfSg42Zm01YtVKsyPI5JsMbIBk7PfWQf5i6czDSmMQIVvQ%3D%3D.jpg",
 // "http://ecx.images-amazon.com/images/I/510D4R-b-jL._SL500_AA300_.jpg",
