@@ -47,3 +47,5 @@ end
 
 # Add foundation
 gem 'foundation-rails'
+
+gem 'rails_12factor', group: :production
