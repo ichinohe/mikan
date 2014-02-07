@@ -32,7 +32,7 @@ array_img = [
 "http://www.toei.co.jp/tv/gaimu/main_image/__icsFiles/afieldfile/2013/12/20/550_309-2.jpg",		// 仮面ライダー鎧武
 "http://www.toei.co.jp/tv/kyouryu/main_image/__icsFiles/afieldfile/2013/02/21/HP01.jpg",	// 獣電戦隊キョウリュウジャー
 "http://www.lisani.jp/admin/wp-content/uploads/2013/09/130903_lisani_fai.jpg", 		// ファイ・ブレイン神のパズル3
-"http://www.project-magi.com/img/top/image/01.jpg", 	// マギ2期
+"http://www.project-magi.com/img/top/image/01.jpg",	// マギ2期
 "http://livedoor.blogimg.jp/peperon999/imgs/0/0/009649d1.jpg",	// 絶滅危愚少女
 "http://livedoor.blogimg.jp/nmaouytor/imgs/d/2/d26b939b.png",	// ノブナガン
 "http://www.famitsu.com/images/000/044/070/529830bd25ce2.jpg",		// みんな集まれ！ファルコム学園
@@ -62,7 +62,28 @@ array_img = [
 "http://blog-imgs-57.fc2.com/2/c/h/2chnokakera/kv_20131115121824.jpg", 	// 妖怪ウォッチ
 "http://blog-imgs-46.fc2.com/a/n/i/animaga000/20140109013745550s.jpg",	// 中二病でも恋がしたい！戀
 "http://inarikonkon.jp/ogp-img.jpg",	// いなり、こんこん、恋いろは。
-
+"http://blog-imgs-45-origin.fc2.com/k/a/i/kaigaianime/201311171858285b1.jpg", 	// 凪のあすから
+"http://maken-ki-two.com/img/top/main.png", 	// マケン姫っ！通
+"http://blog-imgs-36.fc2.com/n/o/t/noteanimation/mikakunin0921.jpg", 	// 未確認で進行形
+"http://blog-imgs-38.fc2.com/f/r/e/freeanimetv/201310031932418f1.jpg", 		// ポケットモンスターＸＹ
+"http://www.tv-tokyo.co.jp/anime/naruto/mainimg.gif", 	// NARUTO ナルト疾風伝
+"http://www.takeshobo.co.jp/sp/tv_oneechan/img/top_img001.jpg", 	// お姉ちゃんが来た
+"http://websunday.net/ginsaji/news/anime2nd.gif", 	// 銀の匙 Silver Spoon 2期
+"http://www.dreamcreation.co.jp/stpl/img/top/main_img.png",	// ストレンジ・プラス
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/utayomi20131109_01.jpg?", 	// GO!GO!575
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/shatyhjdtyjre.jpg", 	// pupa
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/51bG9T97jGL._SL500_AA300_.jpg",	// 魔法戦争
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/70d95bad32b72bc6a52293b061f9f49a4e9e9684.jpeg",	// 鬼灯の冷徹
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/logo.jpg",	// 桜Trick
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/mainvisual.jpg",	// Z/X IGNITION
+"http://www.samumenco.com/special/img/01/visualThumb1.jpg", 	// サムライフラメンコ
+"http://www.kill-la-kill.jp/special/img/04/07/kill-la-kill_wp7_pc_1280x800.jpg", 	// キルラキル
+"http://golden-time.jp/images/key_visual.png",	// ゴールデンタイム
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/130726nourin.jpg",	// のうりん
+"http://wakeupgirls.jp/img/top/bg.jpg", 	// Wake Up Girls!
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/hdtyjtdk.jpg", 		// フューチャーカード　バディファイト
+"http://gorakutenngokutorenndonyu-su.com/wp-content/uploads/2013/11/kv.jpg", 		// プピポー！
+"http://animeinfo.up.seesaa.net/media/img_20131127T133230906.jpg", 	// ストライク・ザ・ブラッド
 
 // "http://img.guideme.jp/i/EMQaYnX5RQcKW/tf5RRLRCabREkIp6uW%2BfAMG/ySrfSg42Zm01YtVKsyPI5JsMbIBk7PfWQf5i6czDSmMQIVvQ%3D%3D.jpg",
 // "http://ecx.images-amazon.com/images/I/510D4R-b-jL._SL500_AA300_.jpg",
