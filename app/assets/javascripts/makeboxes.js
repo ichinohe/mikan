@@ -95,6 +95,88 @@ array_img = [
 
 ];
 
+sake_img = [
+"http://asahishuzo.ne.jp/image/top_lang_main_img.jpg",
+"http://www.nomooo.jp/blog/wp-content/uploads/2013/08/aaaa.jpg",
+"http://www.miyamizu.jp/site_data/cabinet/00002404_photo1.jpg",
+"http://image.rakuten.co.jp/e-wine/cabinet/category/kuheiji.jpg",
+"http://www.sake-portal.org/wp-content/uploads/2013/06/S32201.jpg",
+"http://image.rakuten.co.jp/mituwa/cabinet/00242240/01354529/img57849746.jpg",
+"http://blog-imgs-24-origin.fc2.com/y/o/s/yoshiyukita/20090619144610cce.jpg",
+"http://image.www.rakuten.co.jp/sakenogo/img10182914382.jpeg",
+"http://www.sakenomise.com/uploads/鳳凰美田新純吟.jpg",
+"http://item.shopping.c.yimg.jp/i/j/kuranosuke_hk-003",
+"http://livedoor.blogimg.jp/hamayama01/imgs/a/1/a10a223f.jpg",
+"http://pds.exblog.jp/pds/1/200707/14/81/a0066081_70882.jpg",
+"http://image.rakuten.co.jp/syuraku-shop/cabinet/item01/52558_02.jpg",
+"http://image.www.rakuten.co.jp/sakenogo/img10182474112.jpeg",
+"http://stat.ameba.jp/user_images/25/b2/10110008232.jpg",
+"http://paz-work.com/item/kikuhime_01.jpg",
+"http://jizake-daisuki.com/img/sinkametaruzake720ml.gif",
+"https://secure.daishichi.com/resources/upload/products/201%20.jpg",
+"http://www.asabiraki-net.jp/osake/goods/asabiraki/img/img01.jpg",
+"http://livedoor.blogimg.jp/unagikubota/imgs/d/e/deb0c356.jpg",
+"http://www.jizake-asai.jp/bontjd0210image11.jpg",
+"http://www.urano-saketen.com/data/urano/product/59fb11f13c.jpg",
+"http://www.urano-saketen.com/data/urano/product/3a2a369c7b.jpg",
+"http://pds.exblog.jp/pds/1/200511/18/81/a0066081_1729636.jpg",
+"http://livedoor.blogimg.jp/nihonshujp/imgs/2/c/2cf5798f.jpg",
+"http://item.shopping.c.yimg.jp/i/j/echigo_105906",
+"http://pds.exblog.jp/pds/1/201307/27/87/b0147087_1205550.jpg",
+"http://www.yoppawriter.com/_src/sc714/E6BEA4E381AEE4BA95.jpg",
+"http://img.47news.jp/feature/sake/sake_photo/184865_photo.jpg",
+"http://item.shopping.c.yimg.jp/i/j/jizakeyasan_56-4",
+"http://www.kigawaya.com/sake/assets_c/2010/03/hatsu-daigin-thumb-250xauto-1917.jpg",
+"http://www.sasas.jp/goods_image/A3827_I2.jpg",
+"http://www.koizumi-sake.co.jp/catalogue/imgs-labels/L35202.jpg",
+"http://imanaka-sakeshop.com/site_data/cabinet/00001392_photo1.jpg",
+"http://imanaka-sakeshop.com/site_data/cabinet/img59051117.jpg",
+"http://www.koizumi-sake.co.jp/catalogue/imgs-labels/L36205.jpg",
+"http://www.kigawaya.com/img/jyouki/jyouki-title.jpg",
+"http://blog-imgs-30-origin.fc2.com/j/o/z/jozen1/l2838.jpg",
+"http://www.imadeya.co.jp/var/public/product/image1/resized/201211301521565ccdfdee6322da0cf7.jpg",
+"http://www.yukinobousha.jp/products/images/img2302-1.jpg",
+"http://www.tukinoakari.com/media/1/20120602-tetori.jpg",
+"http://livedoor.blogimg.jp/yopparai_mar/imgs/8/3/83ac5c09.JPG",
+"http://img01.eshizuoka.jp/usr/comeyasu/2012_0615日本酒0011.JPG",
+"http://www.miyamizu.jp/site_data/cabinet/00002893_photo1.jpg",
+"http://item.shopping.c.yimg.jp/i/j/taiseiya_et-001",
+"http://www.yamagata-sake.com/upload/save_image/1110-1/big/50.jpg",
+"http://pds.exblog.jp/pds/1/200601/13/81/a0066081_583778.jpg",
+"http://farm4.staticflickr.com/3365/3424040365_6f0fc3a8c1_o.jpg",
+"http://www.koizumi-sake.co.jp/catalogue/imgs-labels/L41225.jpg",
+"http://list.tabiiro.jp/image/304109/otoriyose/main/img1.jpg",
+"http://farm3.staticflickr.com/2851/11186670774_321916ff6c_o.jpg",
+"http://www.aionline-japan.com/upload/save_image/drink_002-01_spa-btn-6.jpg",
+"http://www.kakurei.co.jp/timg/pic-main_03.jpg",
+"http://www.ast39.com/data/ast39/product/shindoshuzo/shind_kouka18a.jpg",
+"http://imanaka-sakeshop.com/site_data/cabinet/00000941_photo1.jpg",
+"http://www.uonumanosato.jp/%40img/sake-hd-KSDN.jpg",
+"http://www.ichinokura.co.jp/_src/sc628/honjozo_03.png",
+"http://www.imadeya.co.jp/var/public/product/image1/resized/201111171624536f1d3dee6322d343ba.jpg",
+"http://www.e-inamura.co.jp/images/material/item_XXL/kourotokujyunn.jpg",
+"http://www.lovefood.jp/fukushima/images/archive/sake1/main.png",
+"http://img.47news.jp/feature/sake/sake_photo/213368_photo.jpg",
+"http://26inch.net/01keyboard/wp-content/uploads/2011/03/IMG_0170.jpg",
+"http://syudouraku-kobayasi.cocolog-nifty.com/photos/uncategorized/2012/02/25/dsc09025.jpg",
+"http://cdn-ak.f.st-hatena.com/images/fotolife/y/yotuparai/20090502/20090502172457.jpg",
+"http://junko-liquor.com/item/images/日本酒_38誠鏡純米幻_1.jpg",
+"http://www.kunii-saketen.co.jp/shop/home/1322/item_img/590233_detailImage1.jpg",
+"http://eemise.com/img885.jpg",
+"http://www.yoppawriter.com/_src/sc1196/E382BFE382A4E38388E383AB-2.jpg",
+"http://www.jizake.com/img/products/Sake7005_1800_1.jpg",
+"http://www.kanedai.com/co4/files/ssc_product/image/863_0_300.jpg",
+"http://www.sasas.jp/goods_image/A4100_I1.jpg",
+"http://loaderfukuoka.com/wp-content/uploads/2012/12/29956b5990f0cebd23e8b10fdca56a1b.jpg",
+"http://jizake-daisuki.com/img/tatenokawaseiryuu1800ml.jpg",
+"http://www.rihaku.co.jp/users/editor/Image/yurai/rihaku.jpg",
+"http://www.imadeya.co.jp/var/public/product/image1/resized/201302191546315fe81dee6322ddee55.jpg",
+"http://www.ast39.com/data/ast39/product/takahashishuzo/thiz_kraoma_h18a.jpg",
+"http://www.imadeya.co.jp/var/public/product/image1/resized/20110408134858c3de4dee6322daa22a.jpg",
+"http://imanaka-sakeshop.com/site_data/cabinet/00000387_photo1.jpg"
+
+];
+
 color_arr = ["#2ecc71", "#3498db", "#f1c40f"];
 
 function insertHTML(size, i) {
@@ -102,7 +184,8 @@ function insertHTML(size, i) {
 	// by color
 	// var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	// by image
-	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	// var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + sake_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	$( '#container' ).html(  e + $( '#container' ).html() );
 
 	setTimeout( 'timer()', 10000 );
