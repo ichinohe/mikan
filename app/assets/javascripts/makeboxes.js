@@ -184,8 +184,8 @@ function insertHTML(size, i) {
 	// by color
 	// var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	// by image
-	// var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
-	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + sake_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	// var e = '<div class="box size' + size +  size + '" style="background-image:url(' + sake_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	$( '#container' ).html(  e + $( '#container' ).html() );
 
 	setTimeout( 'timer()', 10000 );
