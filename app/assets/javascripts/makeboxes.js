@@ -13,6 +13,16 @@ makeBoxes = function() {
   return boxes;
 };
 
+$("#container").on("mouseenter", function(){
+	//busy = 1;
+	//setTimeout(function() { busy = 0; }, 500);
+	
+	$(".box").tooltipster({
+		trigger: 'hover',
+		content: $('<span><strong>This text is in bold case !</strong></span>')
+	});
+});
+
 array_img = [
 "http://www.nisekoi.jp/img/chara/img_chara00.png",
 "http://www.sekaiseifuku-zzz.com/img/bnr/bnr_180x180.gif",
@@ -198,7 +208,7 @@ $(function()
 	var large_num = 5;
 	var middle_num = 40;
 	var small_num = 33;
-	var total_num = large_num + middle_num + small_num;
+	var total_num = 10;//large_num + middle_num + small_num;
 
 	var i = 0;
 	var current_large_num = 0;
