@@ -12,8 +12,28 @@
   </head>
 
   <body>
-
     <%= yield %>
     <%= javascript_include_tag "application" %>
+
+    <script type="text/javascript">
+      // function for the jRumble.js
+      $(function(){
+          $('h1').jrumble({
+          // $('h1, .box.size11, .box.size22').jrumble({
+            x: 5,
+            y: 5,
+            rotation: 10,
+            opacity: true,
+            opacityMin: .75
+          });
+
+        $('h1,  .box.size11, .box.size22').hover(function(){
+          $(this).trigger('startRumble');
+        }, function(){
+          $(this).trigger('stopRumble');
+        });
+      });
+
+    </script>
   </body>
 </html>
