@@ -24,6 +24,7 @@ Things you may want to cover:
 * Foundation
 5.0.2
 * [nested.js](http://suprb.com/apps/nested/)
+* [jrumble](http://jackrugile.com/jrumble/)
 
 ## Configuration
 
