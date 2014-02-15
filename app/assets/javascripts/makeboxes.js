@@ -1,3 +1,4 @@
+/*
 makeBoxes = function() {
   var boxes = [],
       count = Math.random()*15;
@@ -12,6 +13,7 @@ makeBoxes = function() {
 
   return boxes;
 };
+*/
 
 array_img = [
 "http://img.guideme.jp/i/EMQaYnX5RQcKW/tf5RRLRCabREkIp6uW%2BfAMG/ySrfSg42Zm01YtVKsyPI5JsMbIBk7PfWQf5i6czDSmMQIVvQ%3D%3D.jpg",
@@ -54,17 +56,31 @@ array_img = [
 
 color_arr = ["#2ecc71", "#3498db", "#f1c40f"];
 
+$(document).ready(function() {
+    /*
+    $('.my-tooltip').tooltipster({
+        content: $('<span><img src="my-image.png" /> <strong>This text is in bold case !</strong></span>')
+    });
+    */
+});
+
+$(document).on("click", ".
+box", function(){
+	alert("hoge");
+});
+
 function insertHTML(size, i) {
 	var random_color = Math.ceil( Math.random() * 3 ) - 1;
-	//var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
-	var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	
+	var e = '<div class="box size' + size +  size + '" style="background-color:' + color_arr[random_color] + ';width:300px;-moz-background-size:cover;background-size:cover;"></div>';
+	//var e = '<div class="box size' + size +  size + '" style="background-image:url(' + array_img[i] + ');width:300px;-moz-background-size:cover;background-size:cover;"></div>';
 	$( '#container' ).html(  e + $( '#container' ).html() );
 	
-	setTimeout( 'timer()', 10000 );
+	//setTimeout( 'timer()', 10000 );
 }
 
 $(function()
-{
+{	
 	var i = 0;
 	var largh_num = 0;
 	var middle_num = 0;
@@ -99,5 +115,5 @@ $(function()
 	$('#container').nested( {minWidth: 80, gutter: 2, resizeToFit: false, speed:10} );
 	//$("#content").nested({minWidth: 100,gutter: 2,resizeToFit: false})
 
-	setTimeout( 'timer()', 10000 );
+	//setTimeout( 'timer()', 10000 );
 });
