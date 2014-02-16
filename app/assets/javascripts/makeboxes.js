@@ -208,7 +208,8 @@ $(function()
 	var large_num = 5;
 	var middle_num = 40;
 	var small_num = 33;
-	var total_num = 10;//large_num + middle_num + small_num;
+	// var total_num = 10;
+	var total_num = large_num + middle_num + small_num;
 
 	var i = 0;
 	var current_large_num = 0;
