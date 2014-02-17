@@ -4,6 +4,7 @@ Mikan::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  match '/view', to: 'hello#view', via: 'get'
   root :to => 'hello#view'
 
   # Example of regular route:
@@ -54,6 +55,6 @@ Mikan::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  
+
   get ':controller(/:action(/:id(.:format)))'
 end

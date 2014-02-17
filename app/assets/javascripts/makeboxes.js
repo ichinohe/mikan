@@ -16,7 +16,7 @@ makeBoxes = function() {
 $("#container").on("mouseenter", function(){
 	//busy = 1;
 	//setTimeout(function() { busy = 0; }, 500);
-	
+
 	$(".box").tooltipster({
 		trigger: 'hover',
 		content: $('<span><strong>This text is in bold case !</strong></span>')
@@ -205,9 +205,9 @@ function insertHTML(size, i) {
 $(function()
 {
 	// bubble map definition
-	var large_num = 5;
-	var middle_num = 40;
-	var small_num = 33;
+	var large_num = 15;
+	var middle_num = 20;
+	var small_num = 15;
 	// var total_num = 10;
 	var total_num = large_num + middle_num + small_num;
 

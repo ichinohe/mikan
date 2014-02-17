@@ -8,13 +8,13 @@ body {
 	-khtml-border-radius: 50%;
 	-webkit-border-radius:50%;
 	border-radius:50%;
-	
-	-webkit-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
-	-moz-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
-	-ms-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
-	-o-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+
+	-webkit-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-ms-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
 	transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
-	
+
 	-webkit-transition-property: left, right, top;
 	-moz-transition-property: left, right, top;
 	-ms-transition-property: left, right, top;
@@ -28,4 +28,8 @@ body {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+#service_name {
+	color: #EF8B80;
 }
