@@ -7,11 +7,13 @@
     <title><%= content_for?(:title) ? yield(:title) : "MIKAN" %></title>
 
     <%= stylesheet_link_tag    "application" %>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
+
     <%= yield %>
     <%= javascript_include_tag "application" %>
 

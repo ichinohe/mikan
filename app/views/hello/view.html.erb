@@ -33,7 +33,7 @@
 					<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
 				</section>
 				<section class="middle tab-bar-section" style="text-align: center">
-					<h2 class="title">Sake    -    Twitter    -    1 Day</h2>
+					<h2 class="title">Sake    -    <i class="fa fa-twitter fa-1g"></i>Twitter    -    1 Day</h2>
 				</section>
 			</nav>
 			<!-- Off Canvas Menu -->
@@ -45,10 +45,10 @@
 					<li><%= link_to 'Wine', root_path %></li>
 					<li><%= link_to 'Bear', root_path %></li>
 					<li><%= link_to 'Shochu', root_path %></li>
-					<li><label>Data Source</label></li>
-					<li><%= link_to 'Twitter', root_path %></li>
-					<li><%= link_to 'Facebook', root_path %></li>
-					<li><%= link_to 'Google+', root_path %></li>
+					<li><label><i class="fa fa-search fa-lg fa-fw"></i>Data Source</label></li>
+					<li><%= link_to root_path do %><i class="fa fa-twitter fa-lg fa-fw"></i> Twitter<% end %></li>
+					<li><%= link_to root_path do %><i class="fa fa-facebook fa-lg fa-fw"></i> Facebook<% end %></li>
+					<li><%= link_to root_path do %><i class="fa fa-google-plus fa-lg fa-fw"></i> Google+<% end %></li>
 					<li><label>Search Period</label></li>
 					<li><%= link_to '1 Day', root_path %></li>
 					<li><%= link_to '1 Week', root_path %></li>

@@ -49,4 +49,9 @@ end
 # Add foundation
 gem 'foundation-rails'
 
+# font awesome
+gem 'font-awesome-sass'
+# gem 'font-awesome-rails'
+
+
 gem 'rails_12factor', group: :production
