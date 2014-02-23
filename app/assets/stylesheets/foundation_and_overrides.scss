@@ -545,7 +545,7 @@ $tabbar-header-color: $main_text_color;
 $off-canvas-bg: $sub_bg_color;
 
 // Off Canvas Menu List Variables
-// $off-canvas-label-padding: 0.3rem rem-calc(15);
+$off-canvas-label-padding: 0.8rem rem-calc(15);	// ブロック部分の縦、横
 $off-canvas-label-color: $main_text_color;
 // $off-canvas-label-text-transform: uppercase;
 // $off-canvas-label-font-weight: bold;
@@ -555,7 +555,7 @@ $off-canvas-label-bg: scale-color($sub_bg_color, $lightness: -20%);
 // $off-canvas-label-border-top: 1px solid scale-color(#444, $lightness: 14%);
 // $off-canvas-label-border-bottom: none;
 // $off-canvas-label-margin:0;
-// $off-canvas-link-padding: rem-calc(10, 15);
+$off-canvas-link-padding: rem-calc(5, 0);
 $off-canvas-link-color: rgba($sub_text_color, 0.7);
 // $off-canvas-link-border-bottom: 1px solid scale-color($off-canvas-bg, $lightness: 25%);
 

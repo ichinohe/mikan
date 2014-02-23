@@ -36,3 +36,12 @@ body {
 #service_name {
 	color: $top_text_color;
 }
+
+// nav var
+ul.off-canvas-list{
+	li{
+		a{
+			font-size: 0.8rem;
+		}
+	}
+}
