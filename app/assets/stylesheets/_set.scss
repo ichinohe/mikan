@@ -1,0 +1,46 @@
+$pattern: 1;
+
+// default pattern (1)
+$base_bg_color: #CBE8F6;
+$base_text_color: #000000;
+$top_bg_color: #0b579b;
+$top_text_color: #FFFFFF;
+$main_bg_color: #a3d7ef;
+$main_text_color: #FFFFFF;
+$sub_bg_color: #FFFFFF;
+$sub_text_color: #000000;
+
+@if $pattern==1 {
+	// pattern 1 : light blue
+	$base_bg_color: #CBE8F6;
+	$base_text_color: #000000;
+	$top_bg_color: #0b579b;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: #a3d7ef;
+	$main_text_color: #FFFFFF;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
+} @else if $pattern == 2 {
+	// pattern 2 : dark blue
+	$base_bg_color: #CBE8F6;
+	$base_text_color: #000000;
+	$top_bg_color: #02243a;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: #6caac8;
+	$main_text_color: #FFFFFF;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
+} @else if $pattern == 3 {
+	// pattern 3 : dark blue
+	$base_bg_color: #0b1428;
+	$base_text_color: #000000;
+	$top_bg_color: #000000;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: #7f7f7f;
+	$main_text_color: #FFFFFF;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
+}

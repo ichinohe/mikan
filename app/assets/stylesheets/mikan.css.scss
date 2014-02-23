@@ -1,5 +1,8 @@
+// $base_bg_color: #8ebbcf;
+@import "set";
+
 body {
-	background-color: #e3e3e3;
+	background-color: $base_bg_color;
 }
 
 .box {
@@ -31,5 +34,5 @@ body {
 }
 
 #service_name {
-	color: #EF8B80;
+	color: $top_text_color;
 }
