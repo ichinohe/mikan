@@ -1,4 +1,4 @@
-$pattern: 2;
+$pattern: 4;
 
 // default pattern (1)
 $base_bg_color: #CBE8F6;
@@ -32,6 +32,17 @@ $sub_text_color: #000000;
 	$sub_bg_color: #FFFFFF;
 	$sub_text_color: #000000;
 
+} @else if $pattern == 22 {
+	// pattern 22 : dark blue, base == main
+	$base_bg_color: #CBE8F6;
+	$base_text_color: #000000;
+	$top_bg_color: #02243a;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: $base_bg_color;
+	$main_text_color: #FFFFFF;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
 } @else if $pattern == 3 {
 	// pattern 3 : dark blue
 	$base_bg_color: #0b1428;
@@ -39,6 +50,28 @@ $sub_text_color: #000000;
 	$top_bg_color: #000000;
 	$top_text_color: #FFFFFF;
 	$main_bg_color: #7f7f7f;
+	$main_text_color: #FFFFFF;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
+} @else if $pattern == 4 {
+	// pattern 4 : dark blue , main == base
+	$base_bg_color: #AAAAAA;
+	$base_text_color: #000000;
+	$top_bg_color: #0F1D33;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: $base_bg_color;
+	$main_text_color: #FFFFFF;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
+} @else if $pattern == 5 {
+	// pattern 5 : light - dark black, main == base
+	$base_bg_color: #1C1C1C;
+	$base_text_color: #000000;
+	$top_bg_color: $base_bg_color;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: $base_bg_color;
 	$main_text_color: #FFFFFF;
 	$sub_bg_color: #FFFFFF;
 	$sub_text_color: #000000;
