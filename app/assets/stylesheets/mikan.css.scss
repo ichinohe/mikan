@@ -35,6 +35,22 @@ body {
 
 #service_name {
 	color: $top_text_color;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+#search_condition_area {
+	h2, h3{
+		color: $top_text_color;
+	}
+	margin: $tabbar_heigth auto 0 auto;
+	text-align: center;
+	height: $condition_area_height;
+}
+
+#bubble_area{
+
 }
 
 // nav var
@@ -45,3 +61,4 @@ ul.off-canvas-list{
 		}
 	}
 }
+

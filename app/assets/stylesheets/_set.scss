@@ -1,4 +1,10 @@
-$pattern: 4;
+// tabbar hegith
+// $tabbar_heigth: 60px;
+$tabbar-heigth: 60px;
+$condition_area_height: 54px;
+
+// page color setting
+$pattern: 99;
 
 // default pattern (1)
 $base_bg_color: #CBE8F6;
@@ -76,4 +82,28 @@ $sub_text_color: #000000;
 	$sub_bg_color: #FFFFFF;
 	$sub_text_color: #000000;
 
+} @else if $pattern == 6 {
+	// pattern 6 : dark
+	$base_bg_color: #1F1F1F;
+	$base_text_color: #000000;
+	// $top_bg_color: #BF1E56;
+	$top_bg_color: #DA6272;
+	// $top_bg_color: #E89CA6;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: #6caac8;
+	$main_bg_color: $base_bg_color;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
+
+} @else if $pattern == 99 {
+	// pattern 6 : dark
+	$base_bg_color: #1F1F1F;
+	// $base_bg_color: #CBE8F6;
+	$base_text_color: #000000;
+	$top_bg_color: #DA6272;
+	$top_text_color: #FFFFFF;
+	$main_bg_color: #6caac8;
+	$main_bg_color: $top_bg_color;
+	$sub_bg_color: #FFFFFF;
+	$sub_text_color: #000000;
 }

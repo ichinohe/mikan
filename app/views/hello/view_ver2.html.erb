@@ -5,27 +5,6 @@
 <div style="margin: 0px auto 0 auto;">
 	<div class="off-canvas-wrap">
 		<div class="inner-wrap">
-			<!-- top-bar -->
-			<div class="fixed">
-				<nav class="top-bar" data-topbar>
-					<!-- <ul class="title-area"> -->
-					<ul class="center">
-						<li class="name">
-							<h1><div id="service_name">MIKAN</div></h1>
-						</li>
-					</ul>
-				</nav>
-			</div>
-
-			<!-- Tab-bar -->
-			<nav class="tab-bar">
-				<section class="left-small">
-					<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-				</section>
-				<section class="middle tab-bar-section" style="text-align: center">
-					<h2 class="title"><i class="fa fa-twitter fa-2x"></i></h2>
-				</section>
-			</nav>
 
 			<!-- Off Canvas Menu -->
 			<aside class="left-off-canvas-menu">
@@ -46,11 +25,33 @@
 					<li><%= link_to root_path do %><i class="fa fa-angle-double-right fa-lg fa-fw"></i> 1 Month <% end %></li>
 				</ul>
 			</aside>
+
+			<!-- Tab-bar -->
+			<div class="fixed">
+				<nav class="tab-bar">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+					<section class="middle tab-bar-section" style="text-align: center">
+						<h1><div id="service_name">MIKAN</div></h1>
+					</section>
+				</nav>
+			</div>
+			<!-- End Tab-bar -->
+
+			<!-- Search Conditin Area -->
+			<div id="search_condition_area">
+				<h3><i class="fa fa-twitter fa-2x"></i></h3>
+			</div>
+			<!-- End Search Conditin Area -->
+
 			<!-- bubble area -->
-			<div style="width:100%;">
-				<div id="container" style="margin: 24px auto 0 auto;">
+			<div id="bubble_area" style="width:100%;">
+				<div id="container">
 				</div>
 			</div>
+			<!-- End bubble area -->
+
 			<!-- close the off-canvas menu -->
 			<a class="exit-off-canvas"></a>
 		</div>
@@ -58,5 +59,3 @@
 
 
 </div>
-
-

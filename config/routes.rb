@@ -4,8 +4,11 @@ Mikan::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  match '/view', to: 'hello#view', via: 'get'
-  root :to => 'hello#view'
+  # match '/view', to: 'hello#view', via: 'get'
+  # root :to => 'hello#view'
+
+  match '/view', to: 'hello#view_ver2', via: 'get'
+  root :to => 'hello#view_ver2'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
